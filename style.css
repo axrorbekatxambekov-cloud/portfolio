@@ -87,11 +87,6 @@ body {
   border-radius: 15px;
   font-size: 20px;
 }
-.navbar{
-    height: 70px;
-    background-color: black;
-    position: fixed;
-}
 .slayt ul{
     text-decoration: none;
     list-style: none;
