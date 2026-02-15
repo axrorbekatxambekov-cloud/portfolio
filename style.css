@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slayt ul{
+  text-decoration: none;
+  list-style: none;
+} 
+
+.slayt ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+body {
+  background: #0b0f1a;
+  color: #fff;
+}
+.about {
+  padding: 80px 10%;
+  position: relative;
+}
+.title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.text {
+  width: 55%;
+}
+.text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #60a5fa;
+}
+.text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #e5e7eb;
+}
+.image {
+  width: 40%;
+}
+.image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #2563eb;
+}
+.family {
+  width: 90%;
+  margin: auto;
+  padding: 80px 0;
+  align-self: start;
+}
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+.member {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+  padding: 20px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  font-size: 20px;
+ } 
+.member img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+}
+.member p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e5e7eb;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    position: fixed;
+}
+.slayt ul{
+    text-decoration: none;
+    list-style: none;
+}
+.slayt ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+.navbar ul a{
+    color: #cfd8dc;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: auto;
+    align-items: center;
+}
+.slayt ul{
+    text-decoration: none;
+    list-style: none;
+}
+.slayt ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+.navbar ul a{
+    color: #cfd8dc;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill:hover {
+    background-color: rgb(106, 127, 228);
+    transition: all 2s;
+    border: solid white 2px;
+}
+
+.skill {
+    width: 33%;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(243, 243, 243, 0.19);
+    padding: 30px;
+    color: white;
+    display: flex;
+}
+.goals h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.goals-ul {
+    list-style-type: square;
+    font-size: 20px;
+   text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    border: none;
+    border-radius: 15px; 
+}
+
+.goals-ul li {
+    width: 100%;
+    background-color: #0d05a0;
+    color: rgb(103, 103, 103);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.goals-ul li:hover {
+    border: solid rgb(173, 28, 129) 2px;
+    background-color: rgb(219, 212, 22);
+
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill1:hover {
+    background-color: black;
+    border: solid white 2px;
+
+}
+
+.skill1 {
+    width: 33%;
+    margin-top: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px; 
+    background: linear-gradient(rgba(214, 23, 23, 0.911),rgba(230, 14, 154, 0.918));
+    padding: 30px;
+    transition: all 1s linear;
+}
+
+.skill2:hover {
+    background-color: #0b0f1a; 
+    border: solid white 2px;
+
+}
+
+.skill2 {
+    width: 33%;
+    margin-top: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px; 
+    background: linear-gradient(rgba(214, 23, 23, 0.911),rgba(230, 14, 154, 0.918)); 
+    padding: 30px;
+    transition: all 1s linear;
+    color: rgb(255, 255, 255);
+}
+
+.skill3:hover {
+    background-color: #0b0f1a; 
+    border: solid white 2px;
+    
+}
+
+.skill3 {
+    width: 33%;
+    margin-top: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px; 
+    background: linear-gradient(rgba(214, 23, 23, 0.911),rgba(230, 14, 154, 0.918));
+    padding: 30px;
+    transition: all 1s linear;
+    color: rgb(255, 255, 255);
+}
+.wegas{
+  margin-top: 80px;
+}
